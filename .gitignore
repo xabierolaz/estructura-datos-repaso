@@ -20,6 +20,10 @@ __pycache__/
 *.pyo
 .ipynb_checkpoints/
 
+# Local classroom roster exports
+roster_emails.txt
+roster_emails.csv
+
 # OS / editor
 Thumbs.db
 .DS_Store

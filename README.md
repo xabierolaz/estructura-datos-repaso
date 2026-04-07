@@ -17,6 +17,7 @@ Subcarpetas activas:
 Acceso rapido:
 
 - GitHub del repo: [xabierolaz/estructura-datos-repaso](https://github.com/xabierolaz/estructura-datos-repaso)
+- guia rapida para alumnado de Classroom en [STUDENTS_QUICKSTART.md](STUDENTS_QUICKSTART.md)
 - apertura directa de los cuadernos en Colab desde [cuadernos/README.md](cuadernos/README.md)
 - despliegue en GitHub Classroom + Codespaces en [CLASSROOM_SETUP.md](CLASSROOM_SETUP.md)
 
