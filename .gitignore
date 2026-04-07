@@ -1,0 +1,27 @@
+# LaTeX build artifacts
+*.aux
+*.log
+*.nav
+*.out
+*.snm
+*.toc
+*.synctex.gz
+*.vrb
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.run.xml
+*.bcf
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# OS / editor
+Thumbs.db
+.DS_Store
+.vscode/
+

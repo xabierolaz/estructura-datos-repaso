@@ -1,0 +1,179 @@
+{
+  "title": "Checklist 1 minuto por tema",
+  "topics": [
+    {
+      "id": "b01",
+      "block_id": "B01",
+      "name": "Fundamentos de Python",
+      "summary_path": "../resumen/01_fundamentos_python/README.md",
+      "items": [
+        {
+          "id": "b01_i1",
+          "title": "desempaquetado con estrella",
+          "type": "Lectura",
+          "prompt_html": "<p>Sin ejecutar ni mirar apuntes, resuelve:</p><pre><code>first, *middle, last = [10, 20, 30, 40, 50]</code></pre><p>¿Qué valores toman <code>first</code>, <code>middle</code> y <code>last</code>?</p>",
+          "expected_html": "<p><strong>Respuesta esperada:</strong> <code>first = 10</code>, <code>middle = [20, 30, 40]</code>, <code>last = 50</code>.</p>"
+        },
+        {
+          "id": "b01_i2",
+          "title": "modo de apertura correcto",
+          "type": "Ficheros",
+          "prompt_html": "<p>Quieres seguir escribiendo al final de un fichero sin borrar su contenido anterior. ¿Qué modo de apertura es el adecuado entre <code>r</code>, <code>w</code> y <code>a</code>?</p>",
+          "expected_html": "<p><strong>Respuesta esperada:</strong> <code>a</code>.</p><p><code>w</code> trunca el fichero y <code>r</code> no es el modo para escribir al final.</p>"
+        },
+        {
+          "id": "b01_i3",
+          "title": "__name__ al importar",
+          "type": "Ejecucion",
+          "prompt_html": "<p>Si un archivo Python se importa desde otro en lugar de ejecutarse directamente, ¿su <code>__name__</code> vale <code>\"__main__\"</code> o el nombre del módulo?</p>",
+          "expected_html": "<p><strong>Respuesta esperada:</strong> vale el nombre del módulo.</p>"
+        }
+      ]
+    },
+    {
+      "id": "b02",
+      "block_id": "B02",
+      "name": "Clases y objetos",
+      "summary_path": "../resumen/02_clases_y_objetos/README.md",
+      "items": [
+        {
+          "id": "b02_i1",
+          "title": "clase frente a objeto",
+          "type": "Concepto",
+          "prompt_html": "<p>Sin mirar apuntes: en OOP, ¿qué es la clase y qué es el objeto?</p>",
+          "expected_html": "<p><strong>Respuesta esperada:</strong> la clase es la plantilla o molde; el objeto es la instancia concreta creada a partir de esa plantilla.</p>"
+        },
+        {
+          "id": "b02_i2",
+          "title": "que significa self",
+          "type": "Lectura de clase",
+          "prompt_html": "<p>En el método <code>def depositar(self, cantidad):</code>, ¿qué representa <code>self</code>?</p>",
+          "expected_html": "<p><strong>Respuesta esperada:</strong> el objeto concreto sobre el que se está ejecutando el método.</p>"
+        },
+        {
+          "id": "b02_i3",
+          "title": "control de acceso",
+          "type": "Diseño",
+          "prompt_html": "<p>Si una clase usa <code>__saldo</code> como atributo, ¿qué idea de diseño se está marcando?</p>",
+          "expected_html": "<p><strong>Respuesta esperada:</strong> que el atributo es interno y que su acceso o modificación debería controlarse desde métodos de la clase.</p>"
+        }
+      ]
+    },
+    {
+      "id": "b03",
+      "block_id": "B03",
+      "name": "ADT, stacks y queues",
+      "summary_path": "../resumen/03_stacks_y_queues/README.md",
+      "items": [
+        {
+          "id": "b03_i1",
+          "title": "ADT frente a implementacion",
+          "type": "Concepto",
+          "prompt_html": "<p>¿Qué describe un ADT y qué deja sin fijar?</p>",
+          "expected_html": "<p><strong>Respuesta esperada:</strong> describe operaciones y comportamiento esperado; no fija la implementación concreta ni la representación exacta en memoria.</p>"
+        },
+        {
+          "id": "b03_i2",
+          "title": "trazado de stack",
+          "type": "Trazado",
+          "prompt_html": "<p>En una stack vacía se hace:</p><pre><code>push(4)\npush(9)\nx = pop()\ny = peek()</code></pre><p>¿Qué valores deben quedar en <code>x</code> e <code>y</code>?</p>",
+          "expected_html": "<p><strong>Respuesta esperada:</strong> <code>x = 9</code> y <code>y = 4</code>.</p>"
+        },
+        {
+          "id": "b03_i3",
+          "title": "trazado de queue",
+          "type": "Trazado",
+          "prompt_html": "<p>En una queue vacía se hace:</p><pre><code>enqueue('A')\nenqueue('B')\nenqueue('C')\nx = dequeue()</code></pre><p>¿Qué valor sale en <code>x</code>?</p>",
+          "expected_html": "<p><strong>Respuesta esperada:</strong> <code>'A'</code>.</p>"
+        }
+      ]
+    },
+    {
+      "id": "b04",
+      "block_id": "B04",
+      "name": "Deque y priority queue",
+      "summary_path": "../resumen/04_deque_priority_queue/README.md",
+      "items": [
+        {
+          "id": "b04_i1",
+          "title": "operaciones por ambos extremos",
+          "type": "Concepto",
+          "prompt_html": "<p>¿Qué hace que una <code>deque</code> sea más general que una queue normal?</p>",
+          "expected_html": "<p><strong>Respuesta esperada:</strong> que permite insertar y extraer por ambos extremos.</p>"
+        },
+        {
+          "id": "b04_i2",
+          "title": "collections.deque",
+          "type": "Trazado",
+          "prompt_html": "<p>Si empiezas con una <code>deque</code> vacía y haces:</p><pre><code>append('b')\nappendleft('a')\npop()</code></pre><p>¿Qué elemento queda dentro?</p>",
+          "expected_html": "<p><strong>Respuesta esperada:</strong> queda <code>'a'</code>.</p>"
+        },
+        {
+          "id": "b04_i3",
+          "title": "donde pagas el coste",
+          "type": "Priority queue",
+          "prompt_html": "<p>En una priority queue, ¿qué enfoque mantiene la estructura ordenada en el momento de insertar: inserción ordenada o búsqueda al extraer?</p>",
+          "expected_html": "<p><strong>Respuesta esperada:</strong> inserción ordenada.</p>"
+        }
+      ]
+    },
+    {
+      "id": "b05",
+      "block_id": "B05",
+      "name": "Buffers circulares",
+      "summary_path": "../resumen/05_buffers_circulares/README.md",
+      "items": [
+        {
+          "id": "b05_i1",
+          "title": "buffer frente a queue",
+          "type": "Concepto",
+          "prompt_html": "<p>¿Qué rasgo separa a un buffer de una queue pensada solo como ADT?</p>",
+          "expected_html": "<p><strong>Respuesta esperada:</strong> el buffer se define por su caso de uso y su capacidad/flujo de datos; la queue se define por sus reglas de acceso FIFO.</p>"
+        },
+        {
+          "id": "b05_i2",
+          "title": "buffer lleno",
+          "type": "Politica",
+          "prompt_html": "<p>Si un buffer circular de capacidad 3 elimina siempre el dato más antiguo cuando está lleno, y recibe <code>1, 2, 3, 4</code>, ¿qué datos quedan dentro?</p>",
+          "expected_html": "<p><strong>Respuesta esperada:</strong> quedan <code>2, 3, 4</code>.</p>"
+        },
+        {
+          "id": "b05_i3",
+          "title": "indice circular",
+          "type": "Indices",
+          "prompt_html": "<p>Si la capacidad es 5 y un índice vale 4, ¿cuál será su siguiente valor tras aplicar <code>(indice + 1) % capacidad</code>?</p>",
+          "expected_html": "<p><strong>Respuesta esperada:</strong> <code>0</code>.</p>"
+        }
+      ]
+    },
+    {
+      "id": "b06",
+      "block_id": "B06",
+      "name": "Linked lists",
+      "summary_path": "../resumen/06_linked_lists/README.md",
+      "items": [
+        {
+          "id": "b06_i1",
+          "title": "recorrido desde head",
+          "type": "Trazado",
+          "prompt_html": "<p>Si <code>head</code> apunta a <code>9 -&gt; 4 -&gt; 7 -&gt; None</code> y haces dos saltos con <code>current = current.next</code>, ¿qué dato contiene el nodo final alcanzado?</p>",
+          "expected_html": "<p><strong>Respuesta esperada:</strong> <code>7</code>.</p>"
+        },
+        {
+          "id": "b06_i2",
+          "title": "insertar en cabeza",
+          "type": "Estado final",
+          "prompt_html": "<p>Si la lista es <code>4 -&gt; 7 -&gt; None</code> y haces <code>new = Node(2, head)</code> seguido de <code>head = new</code>, ¿qué cadena queda accesible desde <code>head</code>?</p>",
+          "expected_html": "<p><strong>Respuesta esperada:</strong> <code>2 -&gt; 4 -&gt; 7 -&gt; None</code>.</p>"
+        },
+        {
+          "id": "b06_i3",
+          "title": "remove_tail",
+          "type": "Idea operativa",
+          "prompt_html": "<p>Para implementar <code>remove_tail()</code> en una singly linked list, ¿por qué no basta con llegar al último nodo?</p>",
+          "expected_html": "<p><strong>Respuesta esperada:</strong> porque hay que modificar el enlace del penúltimo nodo para que pase a apuntar a <code>None</code>.</p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "scope": "hasta linked lists incluidas",
+  "rule": "resumen y checklist deben tomar como fuente primaria las diapositivas teoricas; practicas y examenes solo pueden servir como contraste, nunca como organizacion principal del repaso",
+  "theory_primary_sources": [
+    {
+      "block_id": "B01",
+      "path": "source/theory (2)/theory/01_intro_basic_concepts/01_introduction_basic_concepts.pdf",
+      "kind": "theory"
+    },
+    {
+      "block_id": "B02",
+      "path": "2_intro_OOP.pdf",
+      "kind": "theory"
+    },
+    {
+      "block_id": "B03",
+      "path": "source/theory (2)/theory/02_stacks_and_queues/02_stacks_and_queues.pdf",
+      "kind": "theory"
+    },
+    {
+      "block_id": "B04",
+      "path": "source/theory (2)/theory/03_deque_and_others/document/03_deque_and_others.pdf",
+      "kind": "theory"
+    },
+    {
+      "block_id": "B05",
+      "path": "11_teoria_buffers_circulares/document/05_buffers.pdf",
+      "kind": "theory"
+    },
+    {
+      "block_id": "B06",
+      "path": "source/theory (2)/theory/04_linked_lists/document/linked_list.pdf",
+      "kind": "theory"
+    }
+  ],
+  "practice_and_support_sources": [
+    {
+      "kind": "support_only",
+      "paths": [
+        "08_practica_calculadora_postfija/document/postfix_corregido.pdf",
+        "10_practica_palindromos/document/palindrome.pdf",
+        "12_practica_parentesis_balanceados/document/parentheses.pdf",
+        "14_practica_juego_de_la_vida_de_conway/conway.pdf",
+        "entregas/enunciado_matrices_dispersas.pdf",
+        "examenes/25_primero/enunciado.pdf",
+        "examenes/25_recuperacion/recuperacion.pdf",
+        "13_17_listas_enlazadas_teoria_y_practica/guided_task/creating_linked_list.pdf",
+        "13_17_listas_enlazadas_teoria_y_practica/guided_task/doubly_linked.pdf"
+      ]
+    }
+  ]
+}
