@@ -2,13 +2,13 @@
 
 Flujo oficial del alumnado:
 
-1. [autotest.ipynb](autotest.ipynb)
+1. [autoevaluacion.md](autoevaluacion.md)
 2. el cuaderno del bloque que haya salido flojo
 3. [entrega_spyder.py](entrega_spyder.py)
 
 ## Archivos importantes
 
-- [autotest.ipynb](autotest.ipynb): diagnostico honesto en Colab. No es una entrega.
+- [autoevaluacion.md](autoevaluacion.md): hoja de autoevaluacion rapida. No es una entrega.
 - [B01_fundamentos_python.ipynb](B01_fundamentos_python.ipynb)
 - [B02_clases_y_objetos.ipynb](B02_clases_y_objetos.ipynb)
 - [B03_stacks_y_queues.ipynb](B03_stacks_y_queues.ipynb)
@@ -19,14 +19,14 @@ Flujo oficial del alumnado:
 
 ## Inicio rapido
 
-1. Abre [autotest.ipynb](autotest.ipynb) en Google Colab.
-2. Marca honestamente que sale limpio y que no.
+1. Abre [autoevaluacion.md](autoevaluacion.md).
+2. Responde por tu cuenta y revisa las respuestas al final.
 3. Abre solo el cuaderno del bloque flojo.
 4. Completa la seccion correspondiente en [entrega_spyder.py](entrega_spyder.py).
 5. Entrega solo [entrega_spyder.py](entrega_spyder.py).
 
 ## Regla central
 
-- el autotest no se entrega
+- la autoevaluacion no se entrega
 - los cuadernos no se entregan
 - la unica entrega es [entrega_spyder.py](entrega_spyder.py)
