@@ -1,5 +1,11 @@
 # GitHub Classroom + Codespaces
 
+Estado actual:
+
+- si Codespaces aun no esta aprobado para tu organizacion o para GitHub Education, usa `No IDE`
+- el flujo operativo actual del alumnado queda en `Google Colab` para estudiar + `github.dev` o local para resolver `practica/`
+- esta guia conserva tambien la configuracion para Codespaces en cuanto quede disponible
+
 Objetivo:
 
 - usar este proyecto como plantilla de una tarea en GitHub Classroom
@@ -18,6 +24,19 @@ Objetivo:
 
 ## Flujo recomendado
 
+### Si Codespaces todavia no esta disponible
+
+1. Usa el repo [xabierolaz/estructura-datos-repaso](https://github.com/xabierolaz/estructura-datos-repaso) como repositorio base.
+2. En GitHub, marca el repositorio como template si quieres reutilizarlo en varias tareas.
+3. En [GitHub Classroom](https://classroom.github.com/), crea o abre tu classroom.
+4. Crea una tarea nueva desde un template repository.
+5. Elige este repo como template.
+6. En el paso del editor soportado, selecciona `No IDE`.
+7. Publica la tarea.
+8. El alumnado estudiara `cuadernos/` en Colab y entregara `practica/` editando en `github.dev` o en local.
+
+### Si Codespaces ya esta disponible
+
 1. Usa el repo [xabierolaz/estructura-datos-repaso](https://github.com/xabierolaz/estructura-datos-repaso) como repositorio base.
 2. En GitHub, marca el repositorio como template si quieres reutilizarlo en varias tareas.
 3. En [GitHub Classroom](https://classroom.github.com/), crea o abre tu classroom.
@@ -35,15 +54,16 @@ Objetivo:
 
 ## Lo que vera el alumnado
 
-- boton para abrir el repo de la tarea en Codespaces
-- entorno web de VS Code ya preparado
-- cuadernos `.ipynb` listos para ejecutar
-- `resumen/` y `practica/` en el mismo workspace
+- si usas `No IDE`: repo de Classroom + cuadernos de estudio en Colab + entrega en `practica/` via `github.dev` o local
+- si usas Codespaces: boton para abrir el repo de la tarea en Codespaces
+- en ambos casos: cuadernos `.ipynb`, `resumen/` y `practica/` ya estructurados
 
 ## Limites reales
 
 - GitHub Classroom no crea el contenido pedagogico; solo distribuye el repo
-- los enlaces de Colab siguen siendo utiles, pero si eliges Codespaces como editor preferido, el flujo principal debe ser Codespaces
+- los enlaces de Colab apuntan al repo canonico de estudio; la entrega real sigue viviendo en el repo individual de Classroom
+- si eliges `No IDE`, conviene explicar al alumnado que debe volver siempre a `practica/` para entregar
+- si eliges Codespaces como editor preferido, el flujo principal puede pasar a ser Codespaces
 - si activas Codespaces para Classroom, el consumo se imputa a la organizacion del classroom
 
 ## Fuentes oficiales

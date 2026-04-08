@@ -1,0 +1,94 @@
+name: Autograding Tests
+
+"on":
+  push:
+  workflow_dispatch:
+
+permissions:
+  checks: write
+  actions: read
+  contents: read
+
+jobs:
+  autograding:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: B01 Fundamentos
+        id: b01-fundamentos
+        continue-on-error: true
+        uses: education/autograding-command-grader@v1
+        with:
+          test-name: B01 Fundamentos
+          command: python practica/01_fundamentos_python/prueba.py
+          timeout: 2
+          max-score: 10
+
+      - name: B02 Clases y objetos
+        id: b02-clases-y-objetos
+        continue-on-error: true
+        uses: education/autograding-command-grader@v1
+        with:
+          test-name: B02 Clases y objetos
+          command: python practica/02_clases_y_objetos/prueba.py
+          timeout: 2
+          max-score: 10
+
+      - name: B03 Stacks y queues
+        id: b03-stacks-y-queues
+        continue-on-error: true
+        uses: education/autograding-command-grader@v1
+        with:
+          test-name: B03 Stacks y queues
+          command: python practica/03_stacks_y_queues/prueba.py
+          timeout: 2
+          max-score: 10
+
+      - name: B04 Deque y priority queue
+        id: b04-deque-y-priority-queue
+        continue-on-error: true
+        uses: education/autograding-command-grader@v1
+        with:
+          test-name: B04 Deque y priority queue
+          command: python practica/04_deque_priority_queue/prueba.py
+          timeout: 2
+          max-score: 10
+
+      - name: B05 Buffers circulares
+        id: b05-buffers-circulares
+        continue-on-error: true
+        uses: education/autograding-command-grader@v1
+        with:
+          test-name: B05 Buffers circulares
+          command: python practica/05_buffers_circulares/prueba.py
+          timeout: 2
+          max-score: 10
+
+      - name: B06 Linked lists
+        id: b06-linked-lists
+        continue-on-error: true
+        uses: education/autograding-command-grader@v1
+        with:
+          test-name: B06 Linked lists
+          command: python practica/06_linked_lists/prueba.py
+          timeout: 2
+          max-score: 10
+
+      - name: Autograding Reporter
+        uses: education/autograding-grading-reporter@v1
+        env:
+          B01-FUNDAMENTOS_RESULTS: "${{steps.b01-fundamentos.outputs.result}}"
+          B02-CLASES-Y-OBJETOS_RESULTS: "${{steps.b02-clases-y-objetos.outputs.result}}"
+          B03-STACKS-Y-QUEUES_RESULTS: "${{steps.b03-stacks-y-queues.outputs.result}}"
+          B04-DEQUE-Y-PRIORITY-QUEUE_RESULTS: "${{steps.b04-deque-y-priority-queue.outputs.result}}"
+          B05-BUFFERS-CIRCULARES_RESULTS: "${{steps.b05-buffers-circulares.outputs.result}}"
+          B06-LINKED-LISTS_RESULTS: "${{steps.b06-linked-lists.outputs.result}}"
+        with:
+          runners: b01-fundamentos,b02-clases-y-objetos,b03-stacks-y-queues,b04-deque-y-priority-queue,b05-buffers-circulares,b06-linked-lists

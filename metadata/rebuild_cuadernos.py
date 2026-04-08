@@ -94,10 +94,13 @@ COMMON_INTRO = """
 
 - este cuaderno esta preparado para Google Colab
 - no sustituye al `resumen/`; lo vuelve ejecutable
-- al ejecutarlo en Colab puedes clonar automaticamente el repo completo
+- en Colab usa el repo canonico de estudio, no tu repo individual de GitHub Classroom
+- al ejecutarlo en Colab puedes clonar automaticamente el repo completo de estudio
+- si vienes desde GitHub Classroom, la entrega real vive en `practica/**/ejercicios.py` de tu repo
 - antes de correr una celda de prediccion, escribe tu respuesta en papel o en un comentario
 - las celdas de prediccion ya no validan la respuesta correcta con `assert`; su trabajo es obligarte a comprometerte antes de ver el resultado
 - al final haz siempre `Restart & Run All`
+- despues del cuaderno vuelve a GitHub y resuelve `practica/` en `github.dev` o en local
 - si pasas el cuaderno pero no puedes cerrar `ejercicios.py`, el bloque no esta dominado
 """
 
@@ -108,9 +111,11 @@ COLAB_INTRO = """
 Flujo recomendado:
 
 - abre este cuaderno en Google Colab
+- este enlace de Colab abre el repo canonico de estudio
 - ejecuta la celda siguiente para clonar `xabierolaz/estructura-datos-repaso`
 - si quieres solo este cuaderno, puedes seguir sin clonar nada
 - si quieres `resumen/` y `practica/` dentro de Colab, deja la clonacion activa
+- esta sesion de Colab no entrega nada automaticamente a GitHub Classroom
 """
 
 
@@ -124,6 +129,7 @@ PROJECT_ROOT = Path.cwd()
 
 print("Entorno Colab:", IN_COLAB)
 print("Directorio actual:", PROJECT_ROOT)
+print("Aviso: esta sesion de Colab es para estudiar. La entrega real vive en tu repo de GitHub Classroom.")
 
 REPO_URL = "https://github.com/xabierolaz/estructura-datos-repaso.git"
 REPO_BRANCH = "main"
@@ -482,7 +488,7 @@ def b01() -> list[dict]:
             """
             ## Cierre
 
-            Cuando este cuaderno pase limpio con `Restart & Run All`, cierra el bloque en [practica/01_fundamentos_python/ejercicios.py](../../practica/01_fundamentos_python/ejercicios.py) y luego ejecuta `prueba.py`.
+            Cuando este cuaderno pase limpio con `Restart & Run All`, vuelve a tu repo de GitHub Classroom y cierra el bloque en [practica/01_fundamentos_python/ejercicios.py](../../practica/01_fundamentos_python/ejercicios.py). Si trabajas solo en navegador, usa `github.dev` con `.` y haz push para lanzar el autograding. Si trabajas en local, ejecuta despues `prueba.py`.
             """
         ),
     ]
@@ -741,7 +747,7 @@ def b02() -> list[dict]:
             """
             ## Cierre
 
-            Cuando este cuaderno pase limpio con `Restart & Run All`, cierra el bloque en [practica/02_clases_y_objetos/ejercicios.py](../../practica/02_clases_y_objetos/ejercicios.py) y luego ejecuta `prueba.py`.
+            Cuando este cuaderno pase limpio con `Restart & Run All`, vuelve a tu repo de GitHub Classroom y cierra el bloque en [practica/02_clases_y_objetos/ejercicios.py](../../practica/02_clases_y_objetos/ejercicios.py). Si trabajas solo en navegador, usa `github.dev` con `.` y haz push para lanzar el autograding. Si trabajas en local, ejecuta despues `prueba.py`.
             """
         ),
     ]
@@ -987,7 +993,7 @@ def b03() -> list[dict]:
             """
             ## Cierre
 
-            Cuando este cuaderno pase limpio con `Restart & Run All`, cierra el bloque en [practica/03_stacks_y_queues/ejercicios.py](../../practica/03_stacks_y_queues/ejercicios.py) y luego ejecuta `prueba.py`.
+            Cuando este cuaderno pase limpio con `Restart & Run All`, vuelve a tu repo de GitHub Classroom y cierra el bloque en [practica/03_stacks_y_queues/ejercicios.py](../../practica/03_stacks_y_queues/ejercicios.py). Si trabajas solo en navegador, usa `github.dev` con `.` y haz push para lanzar el autograding. Si trabajas en local, ejecuta despues `prueba.py`.
             """
         ),
     ]
@@ -1217,7 +1223,7 @@ def b04() -> list[dict]:
             """
             ## Cierre
 
-            Cuando este cuaderno pase limpio con `Restart & Run All`, cierra el bloque en [practica/04_deque_priority_queue/ejercicios.py](../../practica/04_deque_priority_queue/ejercicios.py) y luego ejecuta `prueba.py`.
+            Cuando este cuaderno pase limpio con `Restart & Run All`, vuelve a tu repo de GitHub Classroom y cierra el bloque en [practica/04_deque_priority_queue/ejercicios.py](../../practica/04_deque_priority_queue/ejercicios.py). Si trabajas solo en navegador, usa `github.dev` con `.` y haz push para lanzar el autograding. Si trabajas en local, ejecuta despues `prueba.py`.
             """
         ),
     ]
@@ -1426,7 +1432,7 @@ def b05() -> list[dict]:
             """
             ## Cierre
 
-            Cuando este cuaderno pase limpio con `Restart & Run All`, cierra el bloque en [practica/05_buffers_circulares/ejercicios.py](../../practica/05_buffers_circulares/ejercicios.py) y luego ejecuta `prueba.py`.
+            Cuando este cuaderno pase limpio con `Restart & Run All`, vuelve a tu repo de GitHub Classroom y cierra el bloque en [practica/05_buffers_circulares/ejercicios.py](../../practica/05_buffers_circulares/ejercicios.py). Si trabajas solo en navegador, usa `github.dev` con `.` y haz push para lanzar el autograding. Si trabajas en local, ejecuta despues `prueba.py`.
             """
         ),
     ]
@@ -1893,7 +1899,7 @@ def b06() -> list[dict]:
             """
             ## Cierre
 
-            Cuando este cuaderno pase limpio con `Restart & Run All`, cierra el bloque en [practica/06_linked_lists/ejercicios.py](../../practica/06_linked_lists/ejercicios.py) y luego ejecuta `prueba.py`.
+            Cuando este cuaderno pase limpio con `Restart & Run All`, vuelve a tu repo de GitHub Classroom y cierra el bloque en [practica/06_linked_lists/ejercicios.py](../../practica/06_linked_lists/ejercicios.py). Si trabajas solo en navegador, usa `github.dev` con `.` y haz push para lanzar el autograding. Si trabajas en local, ejecuta despues `prueba.py`.
             """
         ),
     ]
