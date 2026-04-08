@@ -8,7 +8,7 @@ Flujo oficial del alumnado:
 
 ## Archivos importantes
 
-- [autoevaluacion.md](autoevaluacion.md): hoja de autoevaluacion rapida. No es una entrega.
+- [autoevaluacion.md](autoevaluacion.md): hoja de autoevaluacion rapida, 18 preguntas, 3 por tema. No es una entrega.
 - [B01_fundamentos_python.ipynb](B01_fundamentos_python.ipynb)
 - [B02_clases_y_objetos.ipynb](B02_clases_y_objetos.ipynb)
 - [B03_stacks_y_queues.ipynb](B03_stacks_y_queues.ipynb)
@@ -20,7 +20,7 @@ Flujo oficial del alumnado:
 ## Inicio rapido
 
 1. Abre [autoevaluacion.md](autoevaluacion.md).
-2. Responde por tu cuenta y revisa las respuestas al final.
+2. Responde en unos 10 minutos y revisa las respuestas al final.
 3. Abre solo el cuaderno del bloque flojo.
 4. Completa la seccion correspondiente en [entrega_spyder.py](entrega_spyder.py).
 5. Entrega solo [entrega_spyder.py](entrega_spyder.py).
