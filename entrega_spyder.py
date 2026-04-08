@@ -10,6 +10,7 @@ from collections import deque
 
 
 # ===== B01 =====
+# Demuestra lectura de fichero, recorrido con enumerate y formato correcto de salida.
 
 def cargar_numeros(path: str) -> list[int]:
     """
@@ -41,6 +42,7 @@ def formatear_media(nombre: str, media: float) -> str:
 
 
 # ===== B02 =====
+# Demuestra modelado basico con clases, metodos y encapsulacion sencilla.
 
 class Estudiante:
     """
@@ -83,6 +85,7 @@ class CuentaBancaria:
 
 
 # ===== B03 =====
+# Demuestra que distingues LIFO y FIFO y que puedes implementarlos con estado interno.
 
 class Stack:
     def __init__(self):
@@ -137,6 +140,7 @@ class Queue:
 
 
 # ===== B04 =====
+# Demuestra uso de deque y razonamiento sobre prioridad mediante orden interno.
 
 def aplicar_operaciones_deque(operaciones: list[tuple[str, object]]) -> list[object]:
     """
@@ -181,6 +185,7 @@ class PriorityQueueOrdenada:
 
 
 # ===== B05 =====
+# Demuestra comprension de buffer circular, capacidad fija e indice de escritura.
 
 class BufferCircular:
     """
@@ -209,6 +214,7 @@ class BufferCircular:
 
 
 # ===== B06 =====
+# Demuestra manejo de nodos, referencias y operaciones basicas sobre linked lists.
 
 class Node:
     def __init__(self, data, next=None):
