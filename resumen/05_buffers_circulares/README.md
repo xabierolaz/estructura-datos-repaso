@@ -1,6 +1,6 @@
 # B05 - Buffers circulares
 
-Checklist rapida del bloque: [abrir B05](../../checklist_1min/index.html#b05)
+Autotest del bloque: [abre `autotest.ipynb` y ve a B05](../../autotest.ipynb)
 
 ## Que es este bloque
 

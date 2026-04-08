@@ -1,6 +1,6 @@
 # B04 - Deque y priority queue
 
-Checklist rapida del bloque: [abrir B04](../../checklist_1min/index.html#b04)
+Autotest del bloque: [abre `autotest.ipynb` y ve a B04](../../autotest.ipynb)
 
 ## Que es este bloque
 

@@ -26,8 +26,8 @@
     "codespaces": {
       "openFiles": [
         "README.md",
-        "cuadernos/README.md",
-        "cuadernos/01_fundamentos_python/cuaderno.ipynb"
+        "autotest.ipynb",
+        "entrega/entrega_spyder.py"
       ]
     }
   }

@@ -1,6 +1,6 @@
 # B01 - Fundamentos de Python
 
-Checklist rapida del bloque: [abrir B01](../../checklist_1min/index.html#b01)
+Autotest del bloque: [abre `autotest.ipynb` y ve a B01](../../autotest.ipynb)
 
 ## Que es este bloque
 

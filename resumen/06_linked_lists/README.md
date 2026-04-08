@@ -1,6 +1,6 @@
 # B06 - Linked lists
 
-Checklist rapida del bloque: [abrir B06](../../checklist_1min/index.html#b06)
+Autotest del bloque: [abre `autotest.ipynb` y ve a B06](../../autotest.ipynb)
 
 ## Que es este bloque
 

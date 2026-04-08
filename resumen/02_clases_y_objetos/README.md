@@ -1,6 +1,6 @@
 # B02 - Clases y objetos
 
-Checklist rapida del bloque: [abrir B02](../../checklist_1min/index.html#b02)
+Autotest del bloque: [abre `autotest.ipynb` y ve a B02](../../autotest.ipynb)
 
 ## Que es este bloque
 

@@ -1,4 +1,4 @@
-"""Comprobador local y base del autograding.
+"""Comprobador local opcional de la entrega.
 
 No es la entrega. La entrega es `entrega_spyder.py`.
 """
@@ -149,7 +149,7 @@ def run_selected(block_keys: list[str]) -> int:
         else:
             print(f"{key} OK - {label}")
     if failures:
-        print("\nResumen: revisa los bloques marcados como FAIL y vuelve al cuaderno correspondiente.")
+        print("\nResumen: revisa los bloques marcados como FAIL, estudia el resumen correspondiente y vuelve a tu entrega.")
         return 1
     print("\nTodo OK.")
     return 0

@@ -12,7 +12,7 @@ Reglas de esta capa:
   - con que se suele confundir
   - cuando conviene
   - como se ve en un ejemplo corto
-- esta capa ya no es el paso final del estudio: cada bloque debe continuarse en `../cuadernos/`
+- esta capa se usa despues del autotest y antes de la entrega manual
 - aqui el objetivo es que la teoria quede operativa y no solo "sonada"
 
 Bloques activos:
@@ -40,11 +40,9 @@ Metodo de estudio recomendado:
 1. Lee un bloque completo una vez.
 2. Rehaz mentalmente los ejemplos guiados sin mirar.
 3. Haz las microtrazas a mano.
-4. Abre el cuaderno correspondiente en `../cuadernos/`, preferiblemente en Google Colab, y completa sus `TODO`.
-5. Haz `Restart & Run All` en el cuaderno.
-6. Contesta en voz alta las preguntas de autoexplicacion.
-7. Haz la [checklist de 1 minuto](../checklist_1min/index.html).
-8. Cierra el bloque pasando a `../entrega/`.
+4. Vuelve a `../autotest.ipynb` y comprueba si la duda sigue igual.
+5. Contesta en voz alta las preguntas de autoexplicacion.
+6. Pasa a `../entrega/entrega_spyder.py` y completa el bloque correspondiente.
 
 ## Que significa dominar la teoria
 
@@ -71,7 +69,7 @@ Cada bloque intenta incluir siempre estas piezas:
 
 Eso es deliberado. Leer un resumen no basta. Hay que obligarse a recuperar y explicar.
 
-Y despues hay que ejecutar. Si una idea solo aguanta en lectura pero no aguanta en el cuaderno o en `entrega_spyder.py`, todavia no esta estable.
+Y despues hay que ejecutar. Si una idea solo aguanta en lectura pero no aguanta en `entrega_spyder.py`, todavia no esta estable.
 
 ## Mapa de decisiones rapido
 

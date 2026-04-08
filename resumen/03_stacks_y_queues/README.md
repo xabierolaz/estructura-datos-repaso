@@ -1,6 +1,6 @@
 # B03 - ADT, stacks y queues
 
-Checklist rapida del bloque: [abrir B03](../../checklist_1min/index.html#b03)
+Autotest del bloque: [abre `autotest.ipynb` y ve a B03](../../autotest.ipynb)
 
 ## Que es este bloque
 

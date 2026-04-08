@@ -1,34 +1,28 @@
 # 26 repaso examen teoria y practica
 
-- Tipo: teoria y practica
-- Sesion oficial: 26 (2026-05-11)
-- Origen: carpeta de repaso ya trabajada en la raiz, antes llamada `repaso_examen`
+Flujo oficial del alumnado:
 
-Todo lo relativo al repaso activo de este corte vive dentro de esta carpeta.
+1. [autotest.ipynb](autotest.ipynb)
+2. `resumen/`
+3. `entrega/entrega_spyder.py`
 
-Subcarpetas activas:
+## Que hace cada capa
 
-- `cuadernos/`: cuadernos `.ipynb` por tema para aprender teoria y codigo a la vez, preparados para Google Colab como capa principal de estudio.
-- `resumen/`: repaso teorico autocontenido por temas reales de teoria.
-- `checklist_1min/`: ubicacion rapida por tema, sin scoring automatico.
-- `entrega/`: entrega acumulativa en un unico archivo `.py`, pensada para editarse en Spyder, `github.dev` o local y recibir feedback automatico.
-- `metadata/`: trazabilidad minima de fuentes y taxonomia del repaso.
+- `autotest.ipynb`: diagnostico honesto en Colab. No es una entrega.
+- `resumen/`: teoria breve por bloques.
+- `entrega/entrega_spyder.py`: unica entrega que corregira el docente.
+- `entrega/prueba.py`: corrector local opcional por bloques o global.
 
-Acceso rapido:
+## Inicio rapido
 
-- GitHub del repo: [xabierolaz/estructura-datos-repaso](https://github.com/xabierolaz/estructura-datos-repaso)
-- guia rapida para alumnado de Classroom en [STUDENTS_QUICKSTART.md](STUDENTS_QUICKSTART.md)
-- apertura directa de los cuadernos en Colab desde [cuadernos/README.md](cuadernos/README.md)
-- despliegue docente y compatibilidad futura con Codespaces en [CLASSROOM_SETUP.md](CLASSROOM_SETUP.md)
+1. Abre [autotest.ipynb](autotest.ipynb) en Google Colab.
+2. Marca honestamente que sale limpio y que no.
+3. Estudia solo los bloques flojos en `resumen/`.
+4. Completa la seccion correspondiente en `entrega/entrega_spyder.py`.
+5. Si quieres comprobar tu codigo antes de entregarlo, ejecuta `python entrega/prueba.py --block B0X` o `python entrega/prueba.py`.
 
-Reglas de organizacion:
+## Regla central
 
-- para estudiar no hace falta salir de esta carpeta
-- la ruta principal de aprendizaje activo ahora es `resumen/` -> `cuadernos/` -> `entrega/`
-- el flujo recomendado para alumnado hoy es GitHub Classroom + Google Colab para estudiar + `github.dev` o entorno local para resolver `entrega/`
-- los enlaces de Colab apuntan al repo canonico de estudio; la entrega real vive en el repo individual de GitHub Classroom
-- el `resumen/` se organiza por temas teoricos, no por practicas
-- los `cuadernos/` integran prediccion, ejecucion y mini ejercicios por bloque
-- la `checklist_1min/` solo sirve para ubicarse; el estudio real esta en `resumen/`
-- la `entrega/` existe para transferir lo aprendido a un unico archivo `.py` y es lo que debe versionarse y entregarse
-- el material original del curso queda fuera de esta carpeta y solo actua como fuente historica
+- el autotest no se entrega
+- el resumen no se entrega
+- la unica entrega es `entrega/entrega_spyder.py`
