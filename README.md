@@ -16,7 +16,6 @@ Flujo oficial del alumnado:
 - [B05_buffers_circulares.ipynb](B05_buffers_circulares.ipynb)
 - [B06_linked_lists.ipynb](B06_linked_lists.ipynb)
 - [entrega_spyder.py](entrega_spyder.py): unica entrega que corregira el docente.
-- [numbers.txt](numbers.txt): fichero auxiliar para B01.
 
 ## Inicio rapido
 

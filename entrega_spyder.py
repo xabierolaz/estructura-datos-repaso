@@ -17,6 +17,7 @@ def cargar_numeros(path: str) -> list[int]:
     Lee un fichero de texto con enteros separados por espacios y saltos de linea.
 
     Devuelve todos los enteros en una sola lista.
+    Para probarla, puedes crear cualquier `.txt` corto con enteros.
     """
     # TODO: implementar con open(...), strip(), split() e int(...)
     raise NotImplementedError("B01: completa cargar_numeros")
