@@ -4,7 +4,8 @@ Objetivo:
 
 - una sola assignment
 - un solo repo por alumno
-- una sola entrega manual: `entrega/entrega_spyder.py`
+- una sola entrega manual: `entrega_spyder.py`
+- sin carpetas pedagogicas visibles
 
 ## Flujo recomendado
 
@@ -13,26 +14,25 @@ Objetivo:
 3. Usa `No IDE` si no quieres imponer entorno concreto.
 4. Explica al alumnado el flujo oficial:
    - `autotest.ipynb`
-   - `resumen/`
-   - `entrega/entrega_spyder.py`
+   - `B01_fundamentos_python.md` ... `B06_linked_lists.md`
+   - `entrega_spyder.py`
 5. Corrige manualmente `entrega_spyder.py`.
 
 ## Recomendacion de proteccion
 
-Si quieres limitar ediciones en archivos docentes, protege:
+Si quieres limitar ediciones en archivos docentes, protege solo lo que no deban tocar:
 
-- `entrega/prueba.py`
-- `entrega/datos/**`
+- `numbers.txt`
 - cualquier documento docente que no deba tocarse
 
 ## Que ve el alumnado
 
 - un autotest diagnostico en Colab
-- teoria resumida por bloques
+- teoria resumida por bloques en archivos sueltos
 - una sola entrega manual en Spyder o editor simple
 
 ## Regla operativa
 
 - no hay correccion automatica oficial
-- `prueba.py` es solo autocontrol local opcional
+- no hay corrector local separado publicado al alumnado
 - el feedback docente se da manualmente sobre `entrega_spyder.py`

@@ -1,6 +1,6 @@
 # B04 - Deque y priority queue
 
-Autotest del bloque: [abre `autotest.ipynb` y ve a B04](../../autotest.ipynb)
+Autotest del bloque: [abre `autotest.ipynb` y ve a B04](autotest.ipynb)
 
 ## Que es este bloque
 

@@ -2,7 +2,6 @@
 
 Trabaja solo en este archivo.
 Usa Ctrl+F para saltar a `===== B01 =====`, `===== B02 =====`, etc.
-No edites `prueba.py` salvo indicacion expresa del docente.
 """
 
 from __future__ import annotations

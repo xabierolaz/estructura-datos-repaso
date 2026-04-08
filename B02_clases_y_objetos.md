@@ -1,6 +1,6 @@
 # B02 - Clases y objetos
 
-Autotest del bloque: [abre `autotest.ipynb` y ve a B02](../../autotest.ipynb)
+Autotest del bloque: [abre `autotest.ipynb` y ve a B02](autotest.ipynb)
 
 ## Que es este bloque
 

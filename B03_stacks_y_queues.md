@@ -1,6 +1,6 @@
 # B03 - ADT, stacks y queues
 
-Autotest del bloque: [abre `autotest.ipynb` y ve a B03](../../autotest.ipynb)
+Autotest del bloque: [abre `autotest.ipynb` y ve a B03](autotest.ipynb)
 
 ## Que es este bloque
 

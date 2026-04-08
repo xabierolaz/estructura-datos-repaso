@@ -1,6 +1,6 @@
 # B06 - Linked lists
 
-Autotest del bloque: [abre `autotest.ipynb` y ve a B06](../../autotest.ipynb)
+Autotest del bloque: [abre `autotest.ipynb` y ve a B06](autotest.ipynb)
 
 ## Que es este bloque
 

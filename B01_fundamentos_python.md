@@ -1,6 +1,6 @@
 # B01 - Fundamentos de Python
 
-Autotest del bloque: [abre `autotest.ipynb` y ve a B01](../../autotest.ipynb)
+Autotest del bloque: [abre `autotest.ipynb` y ve a B01](autotest.ipynb)
 
 ## Que es este bloque
 

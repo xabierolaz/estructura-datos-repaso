@@ -1,6 +1,6 @@
 # B05 - Buffers circulares
 
-Autotest del bloque: [abre `autotest.ipynb` y ve a B05](../../autotest.ipynb)
+Autotest del bloque: [abre `autotest.ipynb` y ve a B05](autotest.ipynb)
 
 ## Que es este bloque
 
