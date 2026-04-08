@@ -14,7 +14,7 @@ Este repositorio se ha publicado a traves de GitHub Classroom.
 
 - Los cuadernos en Google Colab son la capa de estudio.
 - La entrega real vive en tu repositorio individual de GitHub Classroom.
-- Lo que debes modificar y versionar es `practica/**/ejercicios.py`.
+- Lo que debes modificar y versionar es `entrega/entrega_spyder.py`.
 
 ## Si no aparece un IDE integrado
 
@@ -25,7 +25,7 @@ Opciones recomendadas:
 - estudiar el bloque en Google Colab desde los enlaces de [cuadernos/README.md](cuadernos/README.md)
 - volver a tu repositorio de GitHub Classroom
 - pulsar `.` para abrir `github.dev` en el navegador, o editar directamente desde la web de GitHub
-- resolver `practica/.../ejercicios.py`
+- resolver `entrega/entrega_spyder.py`
 - hacer commit y push para lanzar el autograding
 - o clonar el repositorio y trabajar en local con Jupyter y Spyder si prefieres entorno propio
 
@@ -35,16 +35,16 @@ La ruta correcta es:
 
 1. `resumen/`
 2. `cuadernos/`
-3. `practica/`
+3. `entrega/`
 
-No empieces directamente por `practica/` si no has cerrado antes el cuaderno del bloque.
+No empieces directamente por `entrega/` si no has cerrado antes el cuaderno del bloque.
 
 ## Flujo minimo sin instalar nada
 
 1. Estudia el bloque en Colab.
 2. Vuelve a tu repositorio de Classroom.
 3. Pulsa `.` para abrir `github.dev`.
-4. Edita `practica/<bloque>/ejercicios.py`.
+4. Edita la seccion correspondiente en `entrega/entrega_spyder.py`.
 5. Haz commit.
 6. Revisa la pestaña `Actions` para ver el resultado del autograding.
 
@@ -59,6 +59,6 @@ Un bloque no se considera cerrado hasta que:
 
 - completas el cuaderno
 - haces `Restart & Run All`
-- resuelves `ejercicios.py`
+- completas la seccion correspondiente en `entrega_spyder.py`
 - haces push al repo y revisas el autograding
-- si trabajas en local, ademas ejecutas `prueba.py`
+- si trabajas en local, ademas ejecutas `python entrega/prueba.py`

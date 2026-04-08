@@ -44,7 +44,7 @@ Metodo de estudio recomendado:
 5. Haz `Restart & Run All` en el cuaderno.
 6. Contesta en voz alta las preguntas de autoexplicacion.
 7. Haz la [checklist de 1 minuto](../checklist_1min/index.html).
-8. Cierra el bloque pasando a `../practica/`.
+8. Cierra el bloque pasando a `../entrega/`.
 
 ## Que significa dominar la teoria
 
@@ -71,7 +71,7 @@ Cada bloque intenta incluir siempre estas piezas:
 
 Eso es deliberado. Leer un resumen no basta. Hay que obligarse a recuperar y explicar.
 
-Y despues hay que ejecutar. Si una idea solo aguanta en lectura pero no aguanta en el cuaderno o en `ejercicios.py`, todavia no esta estable.
+Y despues hay que ejecutar. Si una idea solo aguanta en lectura pero no aguanta en el cuaderno o en `entrega_spyder.py`, todavia no esta estable.
 
 ## Mapa de decisiones rapido
 

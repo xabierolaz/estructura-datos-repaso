@@ -27,7 +27,7 @@ jobs:
         uses: education/autograding-command-grader@v1
         with:
           test-name: B01 Fundamentos
-          command: python practica/01_fundamentos_python/prueba.py
+          command: python entrega/prueba.py --block B01
           timeout: 2
           max-score: 10
 
@@ -37,7 +37,7 @@ jobs:
         uses: education/autograding-command-grader@v1
         with:
           test-name: B02 Clases y objetos
-          command: python practica/02_clases_y_objetos/prueba.py
+          command: python entrega/prueba.py --block B02
           timeout: 2
           max-score: 10
 
@@ -47,7 +47,7 @@ jobs:
         uses: education/autograding-command-grader@v1
         with:
           test-name: B03 Stacks y queues
-          command: python practica/03_stacks_y_queues/prueba.py
+          command: python entrega/prueba.py --block B03
           timeout: 2
           max-score: 10
 
@@ -57,7 +57,7 @@ jobs:
         uses: education/autograding-command-grader@v1
         with:
           test-name: B04 Deque y priority queue
-          command: python practica/04_deque_priority_queue/prueba.py
+          command: python entrega/prueba.py --block B04
           timeout: 2
           max-score: 10
 
@@ -67,7 +67,7 @@ jobs:
         uses: education/autograding-command-grader@v1
         with:
           test-name: B05 Buffers circulares
-          command: python practica/05_buffers_circulares/prueba.py
+          command: python entrega/prueba.py --block B05
           timeout: 2
           max-score: 10
 
@@ -77,7 +77,7 @@ jobs:
         uses: education/autograding-command-grader@v1
         with:
           test-name: B06 Linked lists
-          command: python practica/06_linked_lists/prueba.py
+          command: python entrega/prueba.py --block B06
           timeout: 2
           max-score: 10
 

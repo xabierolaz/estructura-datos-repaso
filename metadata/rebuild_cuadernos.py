@@ -96,12 +96,12 @@ COMMON_INTRO = """
 - no sustituye al `resumen/`; lo vuelve ejecutable
 - en Colab usa el repo canonico de estudio, no tu repo individual de GitHub Classroom
 - al ejecutarlo en Colab puedes clonar automaticamente el repo completo de estudio
-- si vienes desde GitHub Classroom, la entrega real vive en `practica/**/ejercicios.py` de tu repo
+- si vienes desde GitHub Classroom, la entrega real vive en `entrega/entrega_spyder.py` de tu repo
 - antes de correr una celda de prediccion, escribe tu respuesta en papel o en un comentario
 - las celdas de prediccion ya no validan la respuesta correcta con `assert`; su trabajo es obligarte a comprometerte antes de ver el resultado
 - al final haz siempre `Restart & Run All`
-- despues del cuaderno vuelve a GitHub y resuelve `practica/` en `github.dev` o en local
-- si pasas el cuaderno pero no puedes cerrar `ejercicios.py`, el bloque no esta dominado
+- despues del cuaderno vuelve a GitHub y resuelve `entrega/` en `github.dev` o en local
+- si pasas el cuaderno pero no puedes cerrar la seccion correspondiente de `entrega_spyder.py`, el bloque no esta dominado
 """
 
 
@@ -114,7 +114,7 @@ Flujo recomendado:
 - este enlace de Colab abre el repo canonico de estudio
 - ejecuta la celda siguiente para clonar `xabierolaz/estructura-datos-repaso`
 - si quieres solo este cuaderno, puedes seguir sin clonar nada
-- si quieres `resumen/` y `practica/` dentro de Colab, deja la clonacion activa
+- si quieres `resumen/` y `entrega/` dentro de Colab, deja la clonacion activa
 - esta sesion de Colab no entrega nada automaticamente a GitHub Classroom
 """
 
@@ -150,7 +150,7 @@ if IN_COLAB and REPO_URL:
         (
             candidate
             for candidate in candidates
-            if (candidate / "cuadernos").exists() and (candidate / "practica").exists()
+            if (candidate / "cuadernos").exists() and (candidate / "entrega").exists()
         ),
         None,
     )
@@ -162,7 +162,7 @@ if IN_COLAB and REPO_URL:
         print("Repo clonado. Ajusta PROJECT_FOLDER o REPO_DIR si la carpeta del proyecto tiene otra forma.")
 elif IN_COLAB:
     print("Modo Colab simple: puedes estudiar este cuaderno sin clonar nada.")
-    print("Si quieres tambien resumen y practica, deja REPO_URL como esta y ejecuta de nuevo.")
+    print("Si quieres tambien resumen y entrega, deja REPO_URL como esta y ejecuta de nuevo.")
 else:
     print("Modo local: no hace falta configuracion extra.")
 """
@@ -175,7 +175,7 @@ def b01() -> list[dict]:
             # B01 - Fundamentos de Python
 
             Resumen: [B01 teoria](../../resumen/01_fundamentos_python/README.md)  
-            Transferencia: [B01 practica](../../practica/01_fundamentos_python/README.md)
+            Transferencia: [Entrega Spyder](../../entrega/README.md#bloques-dentro-del-archivo)
 
             Objetivo del cuaderno:
 
@@ -488,7 +488,7 @@ def b01() -> list[dict]:
             """
             ## Cierre
 
-            Cuando este cuaderno pase limpio con `Restart & Run All`, vuelve a tu repo de GitHub Classroom y cierra el bloque en [practica/01_fundamentos_python/ejercicios.py](../../practica/01_fundamentos_python/ejercicios.py). Si trabajas solo en navegador, usa `github.dev` con `.` y haz push para lanzar el autograding. Si trabajas en local, ejecuta despues `prueba.py`.
+            Cuando este cuaderno pase limpio con `Restart & Run All`, vuelve a tu repo de GitHub Classroom y completa la seccion `B01` en [entrega/entrega_spyder.py](../../entrega/entrega_spyder.py). Si trabajas solo en navegador, usa `github.dev` con `.` y haz push para lanzar el autograding. Si trabajas en local, ejecuta despues `python entrega/prueba.py --block B01`.
             """
         ),
     ]
@@ -501,7 +501,7 @@ def b02() -> list[dict]:
             # B02 - Clases y objetos
 
             Resumen: [B02 teoria](../../resumen/02_clases_y_objetos/README.md)  
-            Transferencia: [B02 practica](../../practica/02_clases_y_objetos/README.md)
+            Transferencia: [Entrega Spyder](../../entrega/README.md#bloques-dentro-del-archivo)
 
             Objetivo del cuaderno:
 
@@ -747,7 +747,7 @@ def b02() -> list[dict]:
             """
             ## Cierre
 
-            Cuando este cuaderno pase limpio con `Restart & Run All`, vuelve a tu repo de GitHub Classroom y cierra el bloque en [practica/02_clases_y_objetos/ejercicios.py](../../practica/02_clases_y_objetos/ejercicios.py). Si trabajas solo en navegador, usa `github.dev` con `.` y haz push para lanzar el autograding. Si trabajas en local, ejecuta despues `prueba.py`.
+            Cuando este cuaderno pase limpio con `Restart & Run All`, vuelve a tu repo de GitHub Classroom y completa la seccion `B02` en [entrega/entrega_spyder.py](../../entrega/entrega_spyder.py). Si trabajas solo en navegador, usa `github.dev` con `.` y haz push para lanzar el autograding. Si trabajas en local, ejecuta despues `python entrega/prueba.py --block B02`.
             """
         ),
     ]
@@ -760,7 +760,7 @@ def b03() -> list[dict]:
             # B03 - ADT, stacks y queues
 
             Resumen: [B03 teoria](../../resumen/03_stacks_y_queues/README.md)  
-            Transferencia: [B03 practica](../../practica/03_stacks_y_queues/README.md)
+            Transferencia: [Entrega Spyder](../../entrega/README.md#bloques-dentro-del-archivo)
 
             Objetivo del cuaderno:
 
@@ -993,7 +993,7 @@ def b03() -> list[dict]:
             """
             ## Cierre
 
-            Cuando este cuaderno pase limpio con `Restart & Run All`, vuelve a tu repo de GitHub Classroom y cierra el bloque en [practica/03_stacks_y_queues/ejercicios.py](../../practica/03_stacks_y_queues/ejercicios.py). Si trabajas solo en navegador, usa `github.dev` con `.` y haz push para lanzar el autograding. Si trabajas en local, ejecuta despues `prueba.py`.
+            Cuando este cuaderno pase limpio con `Restart & Run All`, vuelve a tu repo de GitHub Classroom y completa la seccion `B03` en [entrega/entrega_spyder.py](../../entrega/entrega_spyder.py). Si trabajas solo en navegador, usa `github.dev` con `.` y haz push para lanzar el autograding. Si trabajas en local, ejecuta despues `python entrega/prueba.py --block B03`.
             """
         ),
     ]
@@ -1006,7 +1006,7 @@ def b04() -> list[dict]:
             # B04 - Deque y priority queue
 
             Resumen: [B04 teoria](../../resumen/04_deque_priority_queue/README.md)  
-            Transferencia: [B04 practica](../../practica/04_deque_priority_queue/README.md)
+            Transferencia: [Entrega Spyder](../../entrega/README.md#bloques-dentro-del-archivo)
 
             Objetivo del cuaderno:
 
@@ -1223,7 +1223,7 @@ def b04() -> list[dict]:
             """
             ## Cierre
 
-            Cuando este cuaderno pase limpio con `Restart & Run All`, vuelve a tu repo de GitHub Classroom y cierra el bloque en [practica/04_deque_priority_queue/ejercicios.py](../../practica/04_deque_priority_queue/ejercicios.py). Si trabajas solo en navegador, usa `github.dev` con `.` y haz push para lanzar el autograding. Si trabajas en local, ejecuta despues `prueba.py`.
+            Cuando este cuaderno pase limpio con `Restart & Run All`, vuelve a tu repo de GitHub Classroom y completa la seccion `B04` en [entrega/entrega_spyder.py](../../entrega/entrega_spyder.py). Si trabajas solo en navegador, usa `github.dev` con `.` y haz push para lanzar el autograding. Si trabajas en local, ejecuta despues `python entrega/prueba.py --block B04`.
             """
         ),
     ]
@@ -1236,7 +1236,7 @@ def b05() -> list[dict]:
             # B05 - Buffers circulares
 
             Resumen: [B05 teoria](../../resumen/05_buffers_circulares/README.md)  
-            Transferencia: [B05 practica](../../practica/05_buffers_circulares/README.md)
+            Transferencia: [Entrega Spyder](../../entrega/README.md#bloques-dentro-del-archivo)
 
             Objetivo del cuaderno:
 
@@ -1432,7 +1432,7 @@ def b05() -> list[dict]:
             """
             ## Cierre
 
-            Cuando este cuaderno pase limpio con `Restart & Run All`, vuelve a tu repo de GitHub Classroom y cierra el bloque en [practica/05_buffers_circulares/ejercicios.py](../../practica/05_buffers_circulares/ejercicios.py). Si trabajas solo en navegador, usa `github.dev` con `.` y haz push para lanzar el autograding. Si trabajas en local, ejecuta despues `prueba.py`.
+            Cuando este cuaderno pase limpio con `Restart & Run All`, vuelve a tu repo de GitHub Classroom y completa la seccion `B05` en [entrega/entrega_spyder.py](../../entrega/entrega_spyder.py). Si trabajas solo en navegador, usa `github.dev` con `.` y haz push para lanzar el autograding. Si trabajas en local, ejecuta despues `python entrega/prueba.py --block B05`.
             """
         ),
     ]
@@ -1445,7 +1445,7 @@ def b06() -> list[dict]:
             # B06 - Linked lists
 
             Resumen: [B06 teoria](../../resumen/06_linked_lists/README.md)  
-            Transferencia: [B06 practica](../../practica/06_linked_lists/README.md)
+            Transferencia: [Entrega Spyder](../../entrega/README.md#bloques-dentro-del-archivo)
 
             Objetivo del cuaderno:
 
@@ -1899,7 +1899,7 @@ def b06() -> list[dict]:
             """
             ## Cierre
 
-            Cuando este cuaderno pase limpio con `Restart & Run All`, vuelve a tu repo de GitHub Classroom y cierra el bloque en [practica/06_linked_lists/ejercicios.py](../../practica/06_linked_lists/ejercicios.py). Si trabajas solo en navegador, usa `github.dev` con `.` y haz push para lanzar el autograding. Si trabajas en local, ejecuta despues `prueba.py`.
+            Cuando este cuaderno pase limpio con `Restart & Run All`, vuelve a tu repo de GitHub Classroom y completa la seccion `B06` en [entrega/entrega_spyder.py](../../entrega/entrega_spyder.py). Si trabajas solo en navegador, usa `github.dev` con `.` y haz push para lanzar el autograding. Si trabajas en local, ejecuta despues `python entrega/prueba.py --block B06`.
             """
         ),
     ]

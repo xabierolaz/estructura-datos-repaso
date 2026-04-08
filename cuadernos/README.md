@@ -8,13 +8,13 @@ Objetivo:
 - predecir antes de ejecutar
 - correr ejemplos pequenos
 - completar un mini ejercicio dentro del cuaderno
-- cerrar el bloque pasando luego a `../practica/`
+- cerrar el bloque pasando luego a `../entrega/`
 
 Flujo recomendado:
 
 - abrir cada `.ipynb` en Google Colab desde GitHub
-- si vienes desde GitHub Classroom, usar Colab para estudiar y volver luego a tu repo para resolver `practica/`
-- ejecutar la celda inicial si quieres tener tambien `resumen/` y `practica/` dentro del runtime
+- si vienes desde GitHub Classroom, usar Colab para estudiar y volver luego a tu repo para resolver `entrega/`
+- ejecutar la celda inicial si quieres tener tambien `resumen/` y `entrega/` dentro del runtime
 - si solo quieres estudiar un cuaderno suelto, puedes abrirlo en Colab sin clonar nada
 
 Repo canonico:
@@ -28,27 +28,27 @@ Importante:
 
 - los enlaces de Colab de abajo apuntan al repo canonico de estudio
 - esa sesion de Colab no entrega nada automaticamente a GitHub Classroom
-- la entrega real vive en `practica/**/ejercicios.py` dentro de tu repo individual
+- la entrega real vive en `entrega/entrega_spyder.py` dentro de tu repo individual
 
 Reglas zero-trust:
 
 - no ejecutes una celda de prediccion sin escribir antes tu respuesta
 - no des por entendido un ejemplo solo porque "sale bien"
 - usa `Restart & Run All` al final del bloque para evitar estado oculto
-- si pasas el cuaderno pero no puedes resolver `ejercicios.py`, el tema no esta cerrado
+- si pasas el cuaderno pero no puedes cerrar la seccion correspondiente de `entrega_spyder.py`, el tema no esta cerrado
 
 Uso recomendado:
 
 1. Lee una pasada corta del bloque en `../resumen/`.
 2. Abre el cuaderno del tema en Google Colab con uno de los enlaces de abajo.
-3. En Colab, ejecuta la celda inicial para clonar el repo si quieres usar tambien `resumen/` y `practica/`.
+3. En Colab, ejecuta la celda inicial para clonar el repo si quieres usar tambien `resumen/` y `entrega/`.
 4. Completa todas las celdas `TODO`.
 5. Haz `Restart & Run All`.
 6. Vuelve a tu repo de GitHub Classroom.
 7. Abre `github.dev` con `.` o trabaja en local.
-8. Pasa a `../practica/` y resuelve `ejercicios.py`.
+8. Pasa a `../entrega/` y completa la seccion correspondiente de `entrega_spyder.py`.
 9. Haz commit y push para lanzar el autograding.
-10. Si trabajas en local, ejecuta `prueba.py`.
+10. Si trabajas en local, ejecuta `python entrega/prueba.py --block B0X`.
 11. Si algo falla, vuelve al punto exacto del cuaderno o del resumen.
 
 Bloques:
