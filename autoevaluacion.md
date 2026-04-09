@@ -1,6 +1,6 @@
 # Autoevaluacion Dura
 
-Usa esta hoja para detectar lagunas reales antes de tocar la entrega. No certifica preparacion de examen.
+Usa esta hoja para repasar preguntas breves por bloques antes de tocar la entrega.
 
 Tiempo objetivo: `15-20` minutos.
 Diseno: `30` preguntas en total, `5` por tema.
@@ -10,17 +10,14 @@ Formato: `2` preguntas tipo test y `3` abiertas por tema.
 
 1. Responde por tu cuenta en papel, en un txt o donde te resulte comodo.
 2. No mires las respuestas hasta haber terminado todos los bloques.
-3. Si una pregunta no sale limpia en unos `30-40` segundos, cuentala como fallo.
-4. Corrige al final y marca cada bloque asi:
-   - `5/5`: bloque limpio; aun no significa que debas dejar de vigilar ese tema
-   - `4/5`: bloque no limpio; cuaderno obligatorio
-   - `3/5` o menos: bloque flojo; cuaderno obligatorio y prioridad alta
-5. Si un solo bloque no queda en `5/5`, no te trates como preparado.
+3. Si una pregunta no sale en unos `30-40` segundos, anota que la has dudado.
+4. Compara tus respuestas con las del final.
+5. Si quieres revisar un tema, abre su cuaderno correspondiente.
 
 Flujo oficial:
 
 1. `autoevaluacion.md`
-2. `B01...B06.ipynb` en cualquier bloque no perfecto
+2. `B01...B06.ipynb` en cualquier bloque que quieras revisar
 3. `entrega_spyder.py`
 
 ---
@@ -41,7 +38,7 @@ Flujo oficial:
    - C. Que Python va a comprobar automaticamente los tipos
    - D. Que la funcion principal debe llamarse exactamente `main`
 
-Si este bloque no sale perfecto, abre [B01_fundamentos_python.ipynb](B01_fundamentos_python.ipynb).
+Para revisar este bloque, abre [B01_fundamentos_python.ipynb](B01_fundamentos_python.ipynb).
 
 ## B02 - Clases y objetos
 
@@ -54,12 +51,12 @@ Si este bloque no sale perfecto, abre [B01_fundamentos_python.ipynb](B01_fundame
    - C. El primer argumento que pase el usuario manualmente
    - D. El ultimo objeto creado de esa clase
 5. Tipo test. Que hace `__init__`?
-   - A. Se llama automaticamente al crear el objeto y deja su estado inicial listo
+   - A. Se llama automaticamente al crear el objeto y fija su estado inicial
    - B. Solo sirve para imprimir el objeto
    - C. Hace privada la clase
    - D. Obliga a usar herencia
 
-Si este bloque no sale perfecto, abre [B02_clases_y_objetos.ipynb](B02_clases_y_objetos.ipynb).
+Para revisar este bloque, abre [B02_clases_y_objetos.ipynb](B02_clases_y_objetos.ipynb).
 
 ## B03 - ADT, stacks y queues
 
@@ -77,7 +74,7 @@ Si este bloque no sale perfecto, abre [B02_clases_y_objetos.ipynb](B02_clases_y_
    - C. `B, C, A`
    - D. Depende siempre de la implementacion interna
 
-Si este bloque no sale perfecto, abre [B03_stacks_y_queues.ipynb](B03_stacks_y_queues.ipynb).
+Para revisar este bloque, abre [B03_stacks_y_queues.ipynb](B03_stacks_y_queues.ipynb).
 
 ## B04 - Deque y priority queue
 
@@ -95,7 +92,7 @@ Si este bloque no sale perfecto, abre [B03_stacks_y_queues.ipynb](B03_stacks_y_q
    - C. Eso convierte la estructura en una deque
    - D. La prioridad deja de importar
 
-Si este bloque no sale perfecto, abre [B04_deque_priority_queue.ipynb](B04_deque_priority_queue.ipynb).
+Para revisar este bloque, abre [B04_deque_priority_queue.ipynb](B04_deque_priority_queue.ipynb).
 
 ## B05 - Buffers circulares
 
@@ -113,7 +110,7 @@ Si este bloque no sale perfecto, abre [B04_deque_priority_queue.ipynb](B04_deque
    - C. `2, 3, 4`
    - D. Solo `4`
 
-Si este bloque no sale perfecto, abre [B05_buffers_circulares.ipynb](B05_buffers_circulares.ipynb).
+Para revisar este bloque, abre [B05_buffers_circulares.ipynb](B05_buffers_circulares.ipynb).
 
 ## B06 - Linked lists
 
@@ -131,7 +128,7 @@ Si este bloque no sale perfecto, abre [B05_buffers_circulares.ipynb](B05_buffers
    - C. Evitan la necesidad de `head`
    - D. Sustituyen a `contains`
 
-Si este bloque no sale perfecto, abre [B06_linked_lists.ipynb](B06_linked_lists.ipynb).
+Para revisar este bloque, abre [B06_linked_lists.ipynb](B06_linked_lists.ipynb).
 
 ---
 
@@ -151,7 +148,7 @@ Si este bloque no sale perfecto, abre [B06_linked_lists.ipynb](B06_linked_lists.
 2. Ejemplo correcto: atributo `nota`, metodo `es_aprobado`.
 3. Marca encapsulacion: el dato es interno y la clase controla su acceso. Invariante basico tipico: no permitir saldo negativo o cambios arbitrarios desde fuera.
 4. `B` -> `self` representa el objeto concreto sobre el que actua el metodo.
-5. `A` -> `__init__` deja el objeto creado en un estado inicial valido.
+5. `A` -> `__init__` se llama automaticamente al crear el objeto y fija su estado inicial.
 
 ### B03
 

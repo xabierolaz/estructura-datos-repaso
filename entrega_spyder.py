@@ -2,10 +2,6 @@
 
 Trabaja solo en este archivo.
 Usa Ctrl+F para saltar a `===== B01 =====`, `===== B02 =====`, etc.
-
-La correccion es por bloques:
-- un bloque flojo no se compensa con otro
-- la teoria debe demostrarse en codigo
 """
 
 from __future__ import annotations
